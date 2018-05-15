@@ -1,0 +1,452 @@
+body {
+background-color: #FACAA9;
+margin-top: 80px;
+height: 500px
+}
+
+#welcome {
+  background-image: url(../img/logo.png);
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+/*Principal*/
+#logo img{
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+}
+
+#start {
+  background-color: #DF8253;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  height: 60px;
+  width: 300px;
+}
+
+#start a {
+  text-decoration: none;
+}
+
+#start p {
+  text-align: center;
+  font-size: 3em;
+  font-family: Springtime in April;
+  color: white;
+}
+
+#start ul {
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
+#start ul li {
+  list-style: none;
+  height: 130px;
+  width: 130px;
+  float: left;
+  background-color: #DF8253;
+  border-radius: 65px;
+  margin-right: 40px;
+}
+
+#start ul li img{
+  height: 60px;
+  margin: 35px 35px;
+}
+
+#barrabaja {
+  background-color: #DF8253;
+  height: 12%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: 121212;
+}
+
+/*Sign_in*/
+#signin p {
+  font-family: Springtime in April;
+  color: #000;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+#signin input {
+  margin: 0 auto;
+  display: block;
+  height: 30px;
+  width: 180px;
+  border-radius: 10px;
+  margin-top: -10px;
+}
+
+#identify {
+  margin: 0 auto;
+  height: 60px;
+  width: 300px;
+}
+
+#identify p {
+  font-family: Springtime in April;
+  color: #000;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+#identify ul {
+  margin-left: -40px;
+  margin-right: -65px;
+}
+
+#identify ul li {
+  list-style: none;
+  float: left;
+  margin-right: 60px;
+}
+
+#identify ul li img {
+  height: 120px;
+}
+
+/*Storys*/
+/*#barra_storys {
+  background-color: #DF8253;
+  height: 60px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 121212;
+}
+
+#barra_storys p {
+  font-family: Springtime in April;
+  color: #000;
+  text-align: center;
+  font-size: 2em;
+  margin: 15px;
+}
+
+#barra_storys ul {
+  float: left;
+  margin-top: 10px;
+}
+
+#barra_storys ul li {
+  background-color: #FACAA9;
+  list-style: none;
+  height: 8px;
+  width: 40px;
+  border-radius: 5px;
+  margin-top: 4px;
+}
+
+.story img {
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+}
+
+.story {
+  text-align: center;
+}
+.story ul {
+  display: inline-block;
+}
+
+.story ul li {
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+}
+.story ul li p {
+  font-family: caviar dreams;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.story ul li img {
+  height: 25px;
+  margin-top: 25px;
+}
+*/
+
+/*storys styles*/
+#text h1 {
+  font-family: Springtime in April;
+  color: #DF8253;
+  text-align: center;
+  font-size: 250%;
+  margin-top: -50px;
+}
+
+#barra_draw {
+  background-color: #DF8253;
+  height: 60px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 121212;
+  text-align: right;
+}
+#draw h2 {
+  font-family: Springtime in April;
+  color: black;
+  text-align: left;
+  font-size: 150%;
+  margin-left: 20px;
+}
+
+#text p {
+  font-family: caviar dreams;
+  text-align: center;
+  font-size: 120%;
+  line-height: 150%;
+  margin: 5% 10%;
+}
+#text {
+  text-align: center;
+}
+#text img {
+  position: fixed;
+  display: inline;
+  margin-left: -20%;
+  height: 40%;
+}
+
+#barrabaja {
+  text-align: center;
+}
+
+#barrabaja ul {
+  display: inline-block;
+  margin-left: -50px;
+}
+
+#barrabaja ul li {
+  background-color: #FACAA9;
+  list-style: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  float: left;
+  margin: 5px 20px;
+  box-shadow: 2px 2px 5px black;
+}
+
+#barrabaja ul li img {
+  height: 20px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 15px;
+
+}
+ /*draw*/
+#barra_draw ul li img{
+  height: 20px;
+
+}
+
+#barra_draw ul li {
+  list-style: none;
+  float: left;
+  margin-top: -150px;
+  height: 50px;
+}
+
+#barra_draw ul {
+  display: inline-block;
+}
+#draw img {
+  margin: 0 auto;
+  display: block;
+  height: 300px;
+  margin-top: 100px;
+}
+
+#colors {
+  text-align: center;
+}
+
+#colors ul {
+  display: inline-block;
+  list-style: none;
+  margin-left: -40px;
+  margin-top: 40px;
+}
+
+ .colors {
+   height: 30px;
+   width: 30px;
+   border-radius:15px;
+   float: left;
+   margin-right: 10px;
+   margin-bottom: 10px;
+ }
+
+#yellow {
+  background-color: yellow;
+}
+#orange {
+  background-color: orange;
+}
+#salmon{
+  background-color: salmon;
+}
+#deeppink {
+  background-color: deeppink;
+}
+#purple {
+  background-color: purple;
+}
+#firebrick {
+  background-color: firebrick;
+}
+#greenyellow {
+  background-color: greenyellow;
+}
+#turquoise {
+  background-color: turquoise;
+}
+#teal {
+  background-color: teal;
+}
+#blue {
+  background-color: blue;
+}
+#black {
+  background-color: black;
+}
+#white {
+  background-color: white;
+}
+
+
+/*menu hamburguesa*/
+#hamburguesa {
+  background-color: #FACAA9;
+  overflow-x: hidden;
+  margin-top: -75px;
+}
+
+.tot {
+  top: -500px;
+  background-color: #FACAA9;
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.activador {
+  position: absolute;
+  clip: rect(0,0,0,0,);
+}
+
+label[for="activador"] {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+#navegacio {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  list-style: none;
+}
+
+#hamburger ul {
+  margin-top: 15%;
+  margin-left: -30px;
+}
+#hamburger ul li {
+  font-family: Springtime in April;
+  color: black;
+  text-align: left;
+  font-size: 40px;
+}
+
+#hamburger ul li img {
+  height: 60px;
+  margin: 12px 20px 0 20px;
+}
+
+
+.white {
+  background-color: white;
+}
+
+
+
+.activador:checked + label { right: 10%;}
+.activador:checked ~ .tot { left: 100%;}
+
+
+.activador + label, .tot {
+ transition: left 0.2s;
+}
+
+label[for="activador"]::after {
+ content:"- - -";
+ display: block;
+ background-color: #DF8253;
+ width: 40px;
+ height: 40px;
+ border-radius: 5px;
+ font-size: 80px;
+ line-height: 8px;
+ text-align: center;
+}
+
+/
+#barra_storys {
+  height: 100px;
+  background-color: yellow;
+}
+.story img {
+  height: 180px;
+  margin: 0 auto;
+  display: block;
+}
+
+#story {
+  margin-top: 20px;
+  text-align: center;
+}
+.story ul {
+  display: inline-block;
+}
+
+.story ul li {
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+}
+.story ul li p {
+  font-family: caviar dreams;
+  text-align: center;
+  font-size: 0.5em;
+}
+
+.story ul li img {
+
+}
+
+#navegacio a {
+  text-decoration: none;
+  color: black;
+}

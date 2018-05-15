@@ -1,0 +1,172 @@
+body {
+background-color: #FACAA9;
+height: 500px
+}
+/*perfil*/
+
+#barra_perfil {
+  background-color: #DF8253;
+  height: 25%;
+  width: 100%;
+  position: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+#barra_perfil img {
+  margin-top: -80px;
+  height: 100%
+}
+
+#barra_perfil ul li {
+  list-style: none;
+  font-family: Springtime in April;
+  color: black;
+  text-align: right;
+  font-size: 25px;
+  margin-right: 30px;
+  margin-top: -20px;
+}
+
+#barra_perfil ul li p {
+  margin-top: -20px;
+}
+#barra_perfil ul li h1 {
+  margin-top: 20px;
+}
+
+#options {
+  text-align: center;
+}
+#options ul {
+  display: inline-block;
+}
+
+#options ul li {
+  background-color: #DF8253;
+  list-style: none;
+  margin-top: 40px;
+  margin-left: -20px;
+  border-radius: 20px;
+  height: 40px;
+  width: 200px;
+}
+#options ul li p {
+  font-family: Springtime in April;
+  color: black;
+  text-align: center;
+  font-size: 200%;
+}
+
+/*friends*/
+#first img{
+  margin: 10px 10px;
+  height: 40px;
+  width: 40px;
+}
+
+#first input {
+  margin: 0 auto;
+  display: block;
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+  margin-top: -50px;
+}
+
+#friends ul {
+  margin-top: 50px;
+  float: left;
+}
+#friends ul li{
+  list-style: none;
+  width: 140px;
+}
+
+#friends ul img {
+  margin: 0 auto;
+  display: block;
+  height: 40px;
+  margin-bottom: -30px;
+}
+#friends ul li img {
+  margin: 0 auto;
+  display: block;
+  height: 120px;
+}
+
+#friends ul li p {
+  font-family: Springtime in April;
+  color: black;
+  text-align: center;
+  font-size: 200%;
+}
+
+/*help*/
+
+#barra_help {
+  height: 60px;
+  background-color: #DF8253;
+}
+
+#barra_help p {
+  text-align: center;
+  margin: 10px;
+  font-family: Springtime in April;
+  color: black;
+  font-size: 200%;
+}
+#help ul li {
+  list-style: none;
+  margin-right: 8%;
+}
+#help ul li h3 {
+  font-family: Springtime in April;
+  color: black;
+  text-align: left;
+  font-size: 200%;
+}
+
+#help ul li p {
+  font-family: caviar dreams;
+  color: black;
+  text-align: left;
+  font-size: 100%;
+}
+
+/*Chat*/
+
+#barra_chat {
+  height: 60px;
+  background-color: #DF8253;
+}
+#barra_chat p{
+  text-align: center;
+  margin: 10px;
+  font-family: Springtime in April;
+  color: black;
+  font-size: 200%;
+  margin-top: -50px;
+}
+
+#barra_chat img {
+  height: 25px;
+  margin: 18px;
+}
+
+#list ul li {
+  list-style: none;
+  margin-bottom: 30px;
+
+}
+
+#list ul li p {
+  font-family: caviar dreams;
+  color: black;
+  font-size: 100%;
+  text-align: center;
+  margin-top: -80px;
+}
+#list ul li img {
+  height: 100px;
+}
