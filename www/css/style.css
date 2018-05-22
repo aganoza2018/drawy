@@ -1,6 +1,44 @@
+/*fonts*/
+@font-face {
+  font-family: 'Springtime in April';
+  src: url('Springtime in April - OTF.eot'); /* IE9 Compat Modes */
+  src: url('Springtime in April - OTF.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Springtime in April - OTF.woff') format('woff'), /* Modern Browsers */
+       url('Springtime in April - OTF.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Springtime in April - OTF.svg#4d9ed34c275434589c68ae92a9030844') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Smoothie Shoppe';
+  src: url('Smoothie Shoppe.eot'); /* IE9 Compat Modes */
+  src: url('Smoothie Shoppe.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Smoothie Shoppe.woff') format('woff'), /* Modern Browsers */
+       url('Smoothie Shoppe.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Smoothie Shoppe.svg#70bc01530f59b0e6e8a1939ee5280441') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Caviar Dreams';
+  src: url('CaviarDreams.eot'); /* IE9 Compat Modes */
+  src: url('CaviarDreams.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('CaviarDreams.woff') format('woff'), /* Modern Browsers */
+       url('CaviarDreams.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('CaviarDreams.svg#ea2e51102cab5e542bd807473dbeee2f') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+/*fonts*/
+
+
 body {
 background-color: #FACAA9;
-margin-top: 80px;
 height: 500px
 }
 
@@ -67,6 +105,11 @@ height: 500px
   position: fixed;
   z-index: 121212;
 }
+
+#barrabaja ul li {
+  cursor: pointer;
+}
+
 
 /*Sign_in*/
 #signin p {
@@ -177,6 +220,10 @@ height: 500px
 */
 
 /*storys styles*/
+
+#text {
+  margin-top: 80px;
+}
 #text h1 {
   font-family: Springtime in April;
   color: #DF8253;
@@ -197,27 +244,28 @@ height: 500px
 }
 #draw h2 {
   font-family: Springtime in April;
-  color: black;
-  text-align: left;
-  font-size: 150%;
-  margin-left: 20px;
+  color: #DF8253;
+  text-align: center;
+  font-size: 250%;
+  margin-top: 100px;
 }
 
 #text p {
-  font-family: caviar dreams;
+  font-family: Smoothie Shoppe;
   text-align: center;
-  font-size: 120%;
-  line-height: 150%;
+  font-size: 1.8em;
+  line-height: 140%;
   margin: 5% 10%;
 }
+
 #text {
   text-align: center;
 }
 #text img {
   position: fixed;
   display: inline;
-  margin-left: -20%;
-  height: 40%;
+  margin-left: -120px;
+  height: 35%;
 }
 
 #barrabaja {
@@ -247,27 +295,19 @@ height: 500px
   margin-top: 15px;
 
 }
+
  /*draw*/
-#barra_draw ul li img{
-  height: 20px;
 
+#barra_draw img {
+  height: 40px;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 
-#barra_draw ul li {
-  list-style: none;
-  float: left;
-  margin-top: -150px;
-  height: 50px;
-}
-
-#barra_draw ul {
-  display: inline-block;
-}
 #draw img {
   margin: 0 auto;
   display: block;
   height: 300px;
-  margin-top: 100px;
 }
 
 #colors {
@@ -328,7 +368,7 @@ height: 500px
 }
 
 
-/*menu hamburguesa*/
+/*menu hamburguesa
 #hamburguesa {
   background-color: #FACAA9;
   overflow-x: hidden;
@@ -411,8 +451,138 @@ label[for="activador"]::after {
  line-height: 8px;
  text-align: center;
 }
+*/
 
-/
+/*Estilo Menu*/
+
+.nav {
+position:absolute;
+width: 220px;
+height: 100%;
+top:0;
+left:-240px;
+padding-top:47px;
+background-color: #DF8253;
+border-right:10px solid #FACAA9;
+transition:all .8s ease;
+}
+
+.separacion {
+  display:block;
+  width:100%;
+  margin:0 auto;
+  line-height: 1.2;
+  position:relative;
+  border-bottom:10px solid #FACAA9;
+  font-family: Springtime in april;
+  color: #FACAA9;
+  font-size: 2em;
+  text-decoration: none;
+  text-align: center;
+}
+.separacion p {
+  text-shadow: 2px 2px 2px black;
+}
+.menu-toogle {
+  background-color: #DF8253;
+  position:absolute;
+  width: 50px;
+  line-height:1;
+  top:6.5px;
+  left: 8px;
+  border-radius:3px;
+  transition: all .8s ease;
+  z-index:10;
+}
+.menu-toogle::after {
+  content:"☰";
+  font-size: 50px;
+  color: #FACAA9;
+}
+
+#barra{
+  padding-top: 10px;
+  padding-right: 20px;
+  width: 100%;
+  height: 60px;
+  background-color: #DF8253;
+  text-align: center;
+  overflow: hidden;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+#barra img {
+  height: 50px;
+}
+
+.nav img{
+  height: 50px;
+  margin-top: -40px;
+  padding-right: 10px;
+}
+
+#hamburguer img {
+  height: 50px;
+  margin-right: -10px;
+  margin-left: 20px;
+  float: left;
+  margin-top: -10px;
+}
+
+.main-w {
+width:100%;
+height:100vh;
+transition: all .8s ease;
+}
+
+.story img {
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+}
+
+.story {
+  text-align: center;
+}
+.story ul {
+  display: inline-block;
+}
+
+.story ul li {
+  list-style: none;
+  float: left;
+}
+
+#story p {
+  font-size: 1.2em;
+  margin-top: 0;
+}
+
+#story ul li img {
+  height: 25px;
+  margin-top: 0;
+}
+
+
+
+
+
+.checkbox {
+display:none;
+}
+.checkbox:checked ~ .nav {
+left:0px;
+position:fixed;
+}
+.checkbox:checked ~ .main-w {
+margin-left:200px;
+}
+.checkbox:checked ~ .menu-toogle {
+left:208px;
+position:fixed;
+}
+
+
 #barra_storys {
   height: 100px;
   background-color: yellow;
@@ -442,11 +612,106 @@ label[for="activador"]::after {
   font-size: 0.5em;
 }
 
-.story ul li img {
-
-}
 
 #navegacio a {
   text-decoration: none;
   color: black;
+}
+
+/*perfil*/
+#barra_perfil {
+  background-color: #DF8253;
+  height: 150px;
+  width: 100%;
+  position: inherit;
+  margin: 0;
+  padding-right: 20px;
+  margin-left: -10px;
+  border-top:10px solid #FACAA9;
+}
+
+#barra_perfil img {
+  margin-top: -100px;
+  height: 100%
+}
+
+#barra_perfil h1 {
+  font-family: Smoothie Shoppe;
+  color: black;
+  text-align: right;
+  font-size: 40px;
+  padding-right: 20px;
+}
+
+#barra_perfil p {
+  font-family: Smoothie Shoppe;
+  color: black;
+  text-align: right;
+  font-size: 30px;
+  padding-right: 20px;
+  margin-top: -30px;
+}
+
+#options {
+  text-align: center;
+}
+#options ul {
+  display: inline-block;
+}
+#options ul li {
+  background-color: #DF8253;
+  list-style: none;
+  margin-top: 40px;
+  margin-left: -20px;
+  border-radius: 20px;
+  height: 40px;
+  width: 200px;
+}
+#options p {
+  font-family: Springtime in April;
+  color: #FACAA9;
+  text-align: center;
+  font-size: 200%;
+  text-decoration: none;
+}
+
+
+/*help*/
+
+#help ul li {
+  list-style: none;
+  margin-right: 8%;
+}
+#help ul li h3 {
+  font-family: Springtime in April;
+  color: black;
+  text-align: left;
+  font-size: 200%;
+}
+
+#help ul li p {
+  font-family: caviar dreams;
+  color: black;
+  text-align: left;
+  font-size: 100%;
+}
+
+
+/*Chat*/
+
+#list ul li {
+  list-style: none;
+  margin-bottom: 30px;
+
+}
+
+#list ul li p {
+  font-family: caviar dreams;
+  color: black;
+  font-size: 100%;
+  text-align: center;
+  margin-top: -80px;
+}
+#list ul li img {
+  height: 100px;
 }

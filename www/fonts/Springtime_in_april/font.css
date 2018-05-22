@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Springtime in April';
+  src: url('Springtime in April - OTF.eot'); /* IE9 Compat Modes */
+  src: url('Springtime in April - OTF.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Springtime in April - OTF.woff') format('woff'), /* Modern Browsers */
+       url('Springtime in April - OTF.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Springtime in April - OTF.svg#4d9ed34c275434589c68ae92a9030844') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
